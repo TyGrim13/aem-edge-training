@@ -20,8 +20,8 @@
   --link-hover-color: #1d3ecf;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: "fun-sans", "Comic Sans MS", sans-serif;
+  --heading-font-family: "comic-heading", "Comic Sans MS", cursive;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -40,18 +40,8 @@
   --nav-height: 64px;
 }
 
-/* fallback fonts */
-@font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
-}
-
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
-}
+/* Adding Google Fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fredoka+One&family=Quicksand:wght@400;500&display=swap');
 
 @media (width >= 900px) {
   :root {
